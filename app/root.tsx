@@ -7,6 +7,15 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
+import type { LinksFunction } from "@remix-run/node";
+import appStylesHref from "./app.css";
+
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: appStylesHref },
+  { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" },
+];
+
+
 export default function App() {
   return (
     <html lang="en">
