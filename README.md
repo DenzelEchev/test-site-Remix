@@ -2,7 +2,7 @@
 
 - [Remix Docs](https://remix.run/docs)
 
-## Development
+## Development..
 
 From your terminal:
 
